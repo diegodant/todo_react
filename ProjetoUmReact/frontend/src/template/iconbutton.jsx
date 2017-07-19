@@ -8,4 +8,4 @@ export default props => (
                 <i className={'fa fa-'+ props.icon}></i>
             </button>
     </If>
-}
+)
