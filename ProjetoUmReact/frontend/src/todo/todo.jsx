@@ -14,7 +14,8 @@ export default class Todo extends Component{
         this.state={description:'', list: [] }
         
         this.handleChange = this.handleChange.bind(this)
-        this.handleAdd = this.handleAdd.bind(this)
+        this.handleAdd = this.handleAdd.bind(this) // teste
+        
     }
 
     handleAdd(){
