@@ -26,6 +26,7 @@ export default class Todo extends Component{
 
     handleChange(e){
         this.setState({...this.state, description:e.target.value})
+        axios.post(URL,{description}).then(resp=> console.log('Funcionou'))
     }
     
     render(){
